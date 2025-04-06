@@ -9,7 +9,7 @@ let count = 0;
 btn.addEventListener('click', function(){
 if (!isRunning){
     interval = setInterval(() => {
-        if (count >= 5){
+        if (count >= 200){
             clearInterval(interval);
             isRunning = false;
             count = 0;
